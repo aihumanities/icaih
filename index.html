@@ -1,12 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    just for test
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SciPy Korea 2023</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="favicon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d878e2d7c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div class="top-btn">
+      <a href="#"> <i class="fa-solid fa-arrow-up"></i> </a>
+    </div>
+    <div class="main-wrapper">
+      <div class="nav-bar">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img class="sp-korea-logo-img" src="src\images\scipy_korea_logo.png" alt="">
+          </a>
+          <a href="index.html">
+            <div class="nav-title">SciPy Korea 2023</div>
+          </a>
+        </div>
+        <div class="menu-wrapper">
+          <div class="menu"><a href="about.html">소개</a></div>
+          <div class="menu">프로그램</div>
+          <div class="menu">참가등록</div>
+          <!-- <div class="menu contribute">
+            <a href="https://forms.gle/6hPmfPcLes8jGUUL8" target="_blank"
+              >연사신청</a
+            >
+          </div> -->
+          <a href="#" class="nav-toggle" onclick="openClose()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+        <!-- 모바일 메뉴 토글 -->
+      </div>
+
+      <div class="mobile-menu-wrapper">
+        <div class="mobile-menu"><a href="about.html">소개</a></div>
+        <div class="mobile-menu">프로그램</div>
+        <div class="mobile-menu">참가등록</div>
+        <!-- <div class="mobile-menu">
+          <a href="https://forms.gle/6hPmfPcLes8jGUUL8" target="_blank"
+            >연사신청</a
+          >
+        </div> -->
+      </div>
+
+      <div class="page-content">
+        <h1 class="main-title">SciPy Korea 2023</h1>
+        <img class="logo-img" src="src\images\big_logo.png" alt="logo" />
+        <div class="paragraph-wrapper">
+          <p>
+            SciPy 컨퍼런스는 매년 파이썬 프로그래밍 언어를 이용한 과학 계산 및
+            데이터 과학 분야의 최신 기술과 트렌드를 공유하고 논의하기 위해
+            열리는 컨퍼런스입니다.
+          </p>
+          <p>
+            머신러닝, 딥러닝, 데이터 분석, 시각화, 수치해석, 고성능 컴퓨팅 등과
+            같이 과학 컴퓨팅에 관련된 다양한 주제를 다룹니다.
+          </p>
+          <p>
+            SciPy Korea 2023은 역량있는 파이썬 개발자와 연구자를 모시고 새로운
+            기술과 도구를 배울 수 있는 기회를 마련해 보고 싶습니다.
+          </p>
+          <p>
+            SciPy Korea 2023은 유료 행사이며 발표자를 제외한 다른 참가자는
+            티켓을 구매해야 합니다.<br />
+            티겟 판매 금액은 행사 경비로 사용되며 남은 금액은 내년 행사를 위해
+            이월됩니다.<br />
+            모든 경비 사용 내역은
+            <a
+              href="https://www.facebook.com/groups/ScikitLearnKR"
+              target="_blank"
+              >사이킷런 코리아 페이스북 그룹</a
+            >에 공개될 예정입니다.
+          </p>
+          <p>
+            파이썬 과학 생태계와 함께 나누고 싶은 이야기가 있다면
+            <a href="" target="_blank"><b>참가등록</b></a
+            >을 해 주세요!
+          </p>
+        </div>
+
+        <h2 class="section-title">시간과 장소</h2>
+        <hr />
+        <h3>일시</h3>
+        <span class="">2023년 5월 20일(토) 오후 1시 ~ 오후 6시</span>
+        <h3>장소</h3>
+        <span class="">마루 180 이벤트홀, 강남구 역삼로 180</span>
+        <p></p>
+        <iframe
+          id="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.529928140981!2d127.03665751542087!3d37.495417779811355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca154dd9258e5%3A0xe0888095de7a04b0!2sMARU%20180!5e0!3m2!1sko!2skr!4v1679040085379!5m2!1sko!2skr"
+          width="90%"
+          height="700rem"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h2 class="section-title">타임테이블</h2>
+        <hr />
+        <p></p>
+
+        <div class="timetable-wrapper">
+          <h3 class="time-slot">1:00 - 1:40 pm</h3>
+          <div class="session">
+            <h2 class="session-title"><a href="#">밑바닥에서 하나씩 LLM 챗봇 서빙 개발하기</a></h2>
+            <div class="session-presenter">박찬성</div>
+            <div class="presenter-profile">ML Google Developer Expert</div>
+            <hr class="time-slot-hr" />
+          </div>
+
+          <h3 class="time-slot">1:40 - 2:20 pm</h3>
+          <div class="session">
+            <h2 class="session-title"><a href="#">대규모 언어모델에 날개를 달아 줄 랭체인</a></h2>
+            <div class="session-presenter">김태영</div>
+            <div class="presenter-profile">
+              AIFactory, 케라스 코리아 운영진, Microsoft RD & MVP
+            </div>
+            <hr class="time-slot-hr" />
+          </div>
+
+          <h3 class="time-slot">Breaktime</h3>
+          <div class="session">
+            <div class="session-time">2:20 - 2:30 pm</div>
+            <hr class="time-slot-hr" />
+          </div>
+
+          <h3 class="time-slot">2:30 - 3:10 pm</h3>
+          <div class="session">
+            <h2 class="session-title"><a href="#">GPT4를 이용한 당신의 에이전트, EVAL</a></h2>
+            <div class="session-presenter">이태호</div>
+            <div class="presenter-profile">코르카</div>
+            <hr class="time-slot-hr" />
+          </div>
+
+          <h3 class="time-slot">3:10 - 3:50 pm</h3>
+          <div class="session">
+            <h2 class="session-title"><a href="#">머신러닝을 위한 정형데이터, 사이킷런 쓸까? 판다스 쓸까?</a></h2>
+            <div class="session-presenter">박조은</div>
+            <div class="presenter-profile">
+              오늘코드, 파이토치 한국사용자모임 운영진, Microsoft MVP
+            </div>
+            <hr class="time-slot-hr" />
+          </div>
+
+          <h3 class="time-slot">Breaktime</h3>
+          <div class="session">
+            <div class="session-time">3:50 - 4:40 pm</div>
+            <hr class="time-slot-hr" />
+          </div>
+
+          <h3 class="time-slot">4:00 - 4:40 pm</h3>
+          <div class="session">
+            <h2 class="session-title"><a href="#">Back to the Basic: SciPy 활용 연구 데이터 프로세싱</a></h2>
+            <div class="session-presenter">이제현</div>
+            <div class="presenter-profile">한국에너지기술연구원, Microsoft MVP</div>
+            <hr class="time-slot-hr" />
+          </div>
+
+          <h3 class="time-slot">4:40 - 5:20 pm</h3>
+          <div class="session">
+            <h2 class="session-title"><a href="#">Classification Model의 불균형 데이터세트에 대한 문제점 및 개선</a></h2>
+            <div class="session-presenter">안상선</div>
+            <div class="presenter-profile">
+              (주)M-Robo 대표, 서울사이버대학교 겸임교수
+            </div>
+            <hr class="time-slot-hr" />
+          </div>
+        </div>
+
+        <h2 class="section-title">후원</h2>
+        <hr />
+        
+        <div class="sponsor-container">
+          <a href="https://www.oss.kr/open_up_intro" target="_blank">
+            <img class="sponsor-logo" src="src/images/openup.png" alt="" />
+          </a>
+          <span class="sponsor-name">Open Up</span>
+        </div>
+        <div class="sponsor-container">
+          <a href="https://vessl.ai/" target="_blank">
+            <img class="sponsor-logo" src="src/images/vessl.png" alt="" />
+          </a>
+          <span class="sponsor-name">Vessl AI</span>
+        </div>
+        <div class="sponsor-container">
+          <a href="https://jpub.tistory.com/" target="_blank">
+            <img class="sponsor-logo" src="src/images/jpub.png" alt="" />
+          </a>
+          <span class="sponsor-name">JPub</span>
+        </div>
+        <div class="sponsor-container">
+          <a href="https://www.hanbit.co.kr/media/" target="_blank">
+            <img class="sponsor-logo" src="src/images/hanbit.png" alt="" />
+          </a>
+          <span class="sponsor-name"><b>한빛미디어</b></span>
+        </div>
+        <div class="sponsor-container">
+          <a href="https://goldenrabbit.co.kr/" target="_blank">
+            <img class="sponsor-logo" src="src/images/golden_rabbit.png" alt="" />
+          </a>
+          <span class="sponsor-name">Golden Rabbit</span>
+        </div>
+        <div class="sponsor-container">
+          <a href="https://www.gilbut.co.kr/" target="_blank">
+            <img class="sponsor-logo" src="src/images/gilbut.png" alt="" />
+          </a>
+          <span class="sponsor-name"><b>도서출판 길벗</b></span>
+        </div>
+        <div class="sponsor-container">
+          <a href="http://www.easyspub.co.kr/" target="_blank">
+            <img class="sponsor-logo" src="src/images/easys.png" alt="" />
+          </a>
+          <span class="sponsor-name"><b>이지스퍼블리싱</b></span>
+        </div>
+        
+        
+        <h2 class="section-title">문의</h2>
+        <hr />
+
+        <div class="contact-container">
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:scipy@scipy.kr">scipy@scipy.kr</a>
+          </p>
+          <p>
+            <i class="fa-brands fa-facebook"></i>
+            <a href="https://www.facebook.com/groups/ScikitLearnKR"
+              >페이스북 그룹 사이킷런 코리아</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-info">© 2023 SciPy Korea.</div>
+      </div>
+    </div>
+  </body>
 </html>
