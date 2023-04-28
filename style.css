@@ -1,5 +1,6 @@
 :root{
     --main-color:#081B53;
+    --highlight-color:#ff1818;
 }
 
 * {
@@ -194,7 +195,16 @@ div > a {
     font-size: xx-large;
     font-weight: bolder;
     color: var(--main-color);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
+
+.highlighten {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--highlight-color);
+    padding-top: 2rem;
+    padding-bottom: 1rem;}
 
 .time-slot {
     padding-top: 0.7rem;
@@ -204,6 +214,15 @@ div > a {
 .session {
     padding-bottom: 1rem;
     font-family: 'Noto Sans KR', sans-serif;
+}
+
+.session-title {
+    color: var(--main-color);
+}
+
+.presentation-title {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .session-presenter {
@@ -217,6 +236,10 @@ div > a {
 .time-slot-hr {
     width: 100%;
     margin-top: 1rem;
+}
+
+.divide-hr {
+    width: 6rem;
 }
 
 .presenter-card {

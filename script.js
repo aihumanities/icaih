@@ -8,9 +8,21 @@ function openClose() {
     else {
         menu.style.display = 'flex';
     }
+};
 
-    const button = document.querySelector(".nav-toggle");
-}
+const burgerButton = document.querySelector('.nav-toggle');
+burgerButton.addEventListener("click", openClose);
 
-const switcher = document.querySelector('nav-toggle');
-switcher.addEventListener("click", openClose);
+
+
+const dayTitles = document.querySelectorAll('.day-title');
+dayTitles.forEach((dayTitle) => {
+    dayTitle.addEventListener('mouseenter',()=>{
+        dayTitle.classList.remove('day-title');
+        dayTitle.classList.add('highlighten');
+    })
+    dayTitle.addEventListener('mouseleave',()=>{
+        dayTitle.classList.remove('highlighten');
+        dayTitle.classList.add('day-title');
+    })
+});
