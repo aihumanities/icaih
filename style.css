@@ -1,3 +1,7 @@
+:root{
+    --main-color:#081B53;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -59,7 +63,7 @@ h3 {
     align-content: center;
     width: 100%;
     height: 3rem;
-    background: rgb(1, 50, 67);
+    background: var(--main-color);
     color: white;
 }
 
@@ -127,11 +131,11 @@ div > a {
 .main-title {
     width: 100%;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
     font-family: 'Lato', sans-serif;
     font-size:2.5rem;
-    color:rgb(1, 50, 67);
+    color:var(--main-color);
 }
 
 .sponsor-container {
@@ -162,7 +166,7 @@ div > a {
 .section-title {
     padding-top: 2.5rem;
     padding-bottom: 1rem;
-    color:rgb(1, 50, 67);
+    color:var(--main-color);
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -184,6 +188,12 @@ div > a {
 
 .timetable-wrapper {
     width: 90%;
+}
+
+.day-title {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--main-color);
 }
 
 .time-slot {
@@ -266,7 +276,7 @@ div > a {
     align-items: center;
     width: 100%;
     height: 3rem;
-    background: rgb(1, 50, 67);
+    background: var(--main-color);
     color: white;
     font-family: 'Lato', sans-serif;
 
@@ -311,7 +321,7 @@ div > a {
     display: none;
     flex-direction: column;
     justify-content: center;
-    background: rgb(1, 50, 67);
+    background: var(--main-color);
     width: 100%;
     z-index: 999;
     color: white;
