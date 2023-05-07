@@ -139,6 +139,19 @@ div > a {
     color:var(--main-color);
 }
 
+.sub-title {
+    display: block;
+    width: 90%;
+    text-align: left;
+    align-content: left;
+    padding-bottom: 1rem;    
+}
+
+.normal-paragraph {
+    width: 90%;
+    text-align: left;
+}
+
 .sponsor-container {
     display: flex;
     flex-direction: column;
