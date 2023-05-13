@@ -357,6 +357,16 @@ div > a {
     padding: 1rem 1rem;
 }
 
+.download-btn {
+    border-radius: 50px;
+    background: var(--button-bg-color);
+    color: var(--button-color);
+    margin: 0.5rem 0.5rem;
+    padding: 1rem 1rem; 
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
 .footer {
     display: flex;
     justify-content: center;
