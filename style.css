@@ -184,6 +184,12 @@ div > a {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+.poster {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
 .logo-img {
     width: 38vw;
     background: none;
