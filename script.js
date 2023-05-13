@@ -17,11 +17,11 @@ burgerButton.addEventListener("click", openClose);
 
 const dayTitles = document.querySelectorAll('.day-title');
 dayTitles.forEach((dayTitle) => {
-    dayTitle.addEventListener('mouseenter',()=>{
+    dayTitle.addEventListener('mouseenter', () => {
         dayTitle.classList.remove('day-title');
         dayTitle.classList.add('highlighten');
     })
-    dayTitle.addEventListener('mouseleave',()=>{
+    dayTitle.addEventListener('mouseleave', () => {
         dayTitle.classList.remove('highlighten');
         dayTitle.classList.add('day-title');
     })
