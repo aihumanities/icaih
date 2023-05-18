@@ -415,9 +415,9 @@ div > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     top:50%;
-    left: 50%;
+    left:50%;
     transform: translate(-50%, -50%);
     width: 300px;
     height:300px;
