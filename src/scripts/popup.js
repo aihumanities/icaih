@@ -3,7 +3,7 @@ function popOpen() {
     const modalPop = document.querySelector(".modal-wrap");
     const modalBg = document.querySelector(".modal-background"); 
 
-    if (modalBg.style.display == 'flex') {
+    if (modalBg.style.display == 'flex' || modalPop.style.display =='flex') {
         modalPop.style.display = 'none';
         modalBg.style.display = 'none';
     }
