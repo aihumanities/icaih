@@ -8,7 +8,7 @@ function popOpen() {
         modalBg.style.display = 'none';
     }
     else {
-        modalPop.style.display = 'none';
+        modalPop.style.display = 'flex';
         modalBg.style.display = 'flex';
     }
 
